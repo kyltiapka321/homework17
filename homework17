@@ -1,0 +1,8 @@
+def print_params(a = 1, b = 'строка', c = True):
+    return a, b, c
+
+
+values_list = [1, 'строка', True]
+values_dict = {'a': 3, 'b': 'окунь', 'c': False}
+values_list_2 = [54.32, 'Строка' ]
+print(print_params(**values_dict))
